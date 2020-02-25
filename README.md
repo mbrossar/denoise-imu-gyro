@@ -1,4 +1,4 @@
-# Denoising IMU Gyro with Deep Learning for Open-Loop Orientation Estimation
+# Denoising IMU Gyroscope with Deep Learning for Open-Loop Attitude Estimation
 
 ## Overview [[paper](https://hal.archives-ouvertes.fr/hal-02488923/document)]
 
