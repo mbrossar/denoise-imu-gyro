@@ -1,6 +1,6 @@
 # Denoising IMU Gyro with Deep Learning for Open-Loop Orientation Estimation
 
-## Overview [[paper]()]
+## Overview [[paper](https://hal.archives-ouvertes.fr/hal-02488923/document)]
 
 This repo contains a learning method for denoising gyroscopes of Inertial Measurement Units (IMUs) using
 ground truth data. In terms of attitude dead-reckoning estimation, the obtained algorithm is able to beat top-ranked
@@ -98,9 +98,9 @@ Relative Orientation Error (ROE) in terms of 3D orientation and
 yaw errors on the test sequences. Our method competes with VIO methods albeit based only on IMU signals.
 
 ## Paper
-The paper _Denoising IMU Gyro with Deep Learning for Open-Loop Orientation
-Estimation_, M. Brossard, S. Bonnabeln and A. Barrau. 2020, relative to this repo is
-available at this [url]().
+The paper _Denoising IMU Gyroscope with Deep Learning for Open-Loop Attitude
+Estimation_, M. Brossard, S. Bonnabel and A. Barrau. 2020, relative to this repo is
+available at this [url](https://hal.archives-ouvertes.fr/hal-02488923/document).
 
 
 ## Citation
