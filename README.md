@@ -35,9 +35,9 @@ pip install -r denoise-imu-gyro/requirements.txt
 
 ### Testing
 
-1. Download reformated pickle format of the _EuRoC_ [1] and _TUM-VI_ [2] datasets at this [url](https://cloud.mines-paristech.fr/index.php/s/MRXzSMDX829Qb6k/download), extract and copy then in the `data` folder.
+1. Download reformated pickle format of the _EuRoC_ [1] and _TUM-VI_ [2] datasets at this [url](https://cloud.mines-paristech.fr/index.php/s/d2lHqzIk1PxzWmb/download), extract and copy then in the `data` folder.
 ```
-wget "https://cloud.mines-paristech.fr/index.php/s/MRXzSMDX829Qb6k/download"
+wget "https://cloud.mines-paristech.fr/index.php/s/d2lHqzIk1PxzWmb/download"
 unzip download -d denoise-imu-gyro/data
 rm download
 ```
@@ -45,9 +45,9 @@ These file can alternatively be generated after downloading the _EuRoC_ and
 _TUM-VI_ datasets. They will be generated when lanching the main file after
 providing data paths.
 
-2. Download optimized parameters at this [url](https://cloud.mines-paristech.fr/index.php/s/AMe4V1KYvyHtvEC/download), extract and copy in the `results` folder.
+2. Download optimized parameters at this [url](https://cloud.mines-paristech.fr/index.php/s/OLnj74YXtOLA7Hv/download), extract and copy in the `results` folder.
 ```
-wget "https://cloud.mines-paristech.fr/index.php/s/AMe4V1KYvyHtvEC/download"
+wget "https://cloud.mines-paristech.fr/index.php/s/OLnj74YXtOLA7Hv/download"
 unzip download -d denoise-imu-gyro/results
 rm download
 ```
