@@ -1,6 +1,6 @@
 # Denoising IMU Gyroscope with Deep Learning for Open-Loop Attitude Estimation
 
-## Overview [[paper](https://hal.archives-ouvertes.fr/hal-02488923/document)]
+## Overview [[IEEE paper](https://ieeexplore.ieee.org/document/9119813), [preprint paper](https://hal.archives-ouvertes.fr/hal-02488923/document)]
 
 This repo contains a learning method for denoising gyroscopes of Inertial Measurement Units (IMUs) using
 ground truth data. In terms of attitude dead-reckoning estimation, the obtained algorithm is able to beat top-ranked
@@ -98,9 +98,8 @@ Relative Orientation Error (ROE) in terms of 3D orientation and
 yaw errors on the test sequences. Our method competes with VIO methods albeit based only on IMU signals.
 
 ## Paper
-The paper _Denoising IMU Gyroscope with Deep Learning for Open-Loop Attitude
-Estimation_, M. Brossard, S. Bonnabel and A. Barrau. 2020, relative to this repo is
-available at this [url](https://hal.archives-ouvertes.fr/hal-02488923/document).
+The paper M. Brossard, S. Bonnabel and A. Barrau, "Denoising IMU Gyroscopes With Deep Learning for Open-Loop Attitude Estimation," in _IEEE Robotics and Automation Letters_, vol. 5, no. 3, pp. 4796-4803, July 2020, doi: 10.1109/LRA.2020.3003256., relative to this repo, is
+available at this [url](https://ieeexplore.ieee.org/document/9119813) and a preprint at this [url](https://hal.archives-ouvertes.fr/hal-02488923/document).
 
 
 ## Citation
@@ -109,10 +108,15 @@ If you use this code in your research, please cite:
 
 ```
 @article{brossard2020denoising,
-  author = {Martin Brossard and Silv\`ere Bonnabel and Axel Barrau},
-  title = {{Denoising IMU Gyro with Deep Learning for Open-Loop Orientation Estimation}},
-  year = {2020}
-}
+  author={M. {Brossard} and S. {Bonnabel} and A. {Barrau}},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Denoising IMU Gyroscopes With Deep Learning for Open-Loop Attitude Estimation}, 
+  year={2020},
+  volume={5},
+  number={3},
+  pages={4796-4803},
+  }
+
 ```
 
 ## Authors
