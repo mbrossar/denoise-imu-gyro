@@ -1,6 +1,6 @@
 # Denoising IMU Gyroscope with Deep Learning for Open-Loop Attitude Estimation
 
-## Overview [[IEEE paper](https://ieeexplore.ieee.org/document/9119813), [preprint paper](https://hal.archives-ouvertes.fr/hal-02488923/document)]
+## Overview [[IEEE paper](https://ieeexplore.ieee.org/document/9119813), [preprint paper](https://hal.archives-ouvertes.fr/hal-02488923v4/document)]
 
 This repo contains a learning method for denoising gyroscopes of Inertial Measurement Units (IMUs) using
 ground truth data. In terms of attitude dead-reckoning estimation, the obtained algorithm is able to beat top-ranked
